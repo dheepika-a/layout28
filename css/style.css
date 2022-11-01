@@ -1,0 +1,311 @@
+.header .wrapper
+{
+width:80%;
+margin:auto;
+}
+.logo .wrapper
+{
+width:80%;
+margin:auto;
+}
+.start .wrapper
+{
+width:80%;
+margin:auto;
+}
+.services .wrapper
+{
+width:80%;
+margin:auto;
+}
+.portfolio .wrapper
+{
+width:100%;
+margin:auto;
+}
+.startA .wrapper
+{
+width:80%;
+margin:auto;
+}
+.contact .wrapper
+{
+width:80%;
+margin:auto;
+}
+.copyright .wrapper
+{
+width:80%;
+margin:auto;
+}
+
+.header
+{
+	 background-color:rgb(44,62,80);
+	 height:59px;
+	 
+	 
+}
+.header .header-fc
+{ 
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .header-logo
+{
+	background-color:white;
+	width:258px;
+	height:49px;
+	margin-top:5px;
+}
+.header .header-fc .header-navi
+{
+	background-color:white;
+	width:350px;
+	height:49px;
+	margin-top:5px;
+}
+
+.logo
+{
+	background-color:gray;
+	height:434px;
+	
+}
+
+.logo .logo-fc
+{
+	display:flex;
+	flex-direction:coloum;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+
+.logo .logo-fc .logoclick
+{
+	background-color:pink;
+	height:161px;
+	width:176px;
+		margin-top:50px;
+}
+.logo .logo-fc .logotext
+{
+
+	height:74px;
+	width:100%;
+	text-align:center;
+	margin-top:50px;
+}
+
+.start
+{
+		background-color:lightgreen;
+		height:477px;
+}
+.start .start-fc
+{
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+}
+.start .start-fc .texta
+{
+	margin-top:100px;
+}
+.start .start-fc .boxa
+{
+	height:40px;
+	width:150px;
+	margin-top:60px;
+	background-color:blue;
+}
+.services
+{
+	height:549px;
+	background-color:gray;
+}
+.services .services-fc
+{
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:space-evenly;
+	flex-direction:row;
+	text-align:center;
+}
+.services .services-fc .text
+{
+	width:100%;
+	align-items:center;
+	margin-top:50px;
+}
+.services .services-fc .boxa
+{
+	height:50px;
+	width:20%;
+	background-color:orange;
+	margin-top:150px;
+}
+.services .services-fc .boxb
+{
+	height:50px;
+	width:20%;
+	background-color:orange;
+	margin-top:150px;
+}
+.services .services-fc .boxc
+{
+	height:50px;
+	width:20%;
+	margin-top:150px;
+	background-color:orange;
+}
+.services .services-fc .boxd
+{
+	height:50px;
+	width:20%;
+	background-color:orange;
+	margin-top:150px;
+}
+.portfolio
+{
+	background-color:teal;
+	height:540px;
+}
+.portfolio .portfolio-fc
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+.portfolio .portfolio-fc .boxa
+{
+	width:34%;
+	height:270px;
+	background-color:coral;
+}
+.portfolio .portfolio-fc .boxb
+{
+	background-color:lightpink;
+	width:33%;
+	height:270px;
+	text-align:center;
+}
+.portfolio .portfolio-fc .boxc
+{
+	background-color:coral;
+	width:33%;
+	height:270px;
+}
+.portfolio .portfolio-fc .boxd
+{
+	width:34%;
+	height:270px;
+	background-color:lightpink;
+}
+.portfolio .portfolio-fc .boxe
+{
+	background-color:coral;
+	width:33%;
+	height:270px;
+}
+.portfolio .portfolio-fc .boxf
+{
+	background-color:lightpink;
+	width:33%;
+	height:270px;
+}
+.starta
+{
+	background-color:teal;
+	height:380px;
+}
+.starta .starta-fc
+{
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+}
+.starta .starta-fc .text
+{
+	margin-top:150px;
+}
+.starta .starta-fc .boxa
+{
+	height:40px;
+	width:150px;
+	margin-top:60px;
+	background-color:skyblue;
+}
+.contact
+{
+	background-color:salmon;
+	height:1043px;
+}
+.contact .contact-fc
+{
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	text-align:center;
+}
+.contact .contact-fc .text
+{
+	width:100%;
+	margin-top:50px;
+	align-items:center;
+}
+.contact .contact-fc .boxA
+{
+	background-color:lightpink;
+	width:60%;
+	height:60px;
+	margin-top:70px;
+}
+.contact .contact-fc .boxB
+{
+	background-color:lightpink;
+	width:60%;
+	height:60px;
+	margin-top:10px;
+}
+.contact .contact-fc .boxC
+{
+	background-color:lightpink;
+	width:60%;
+	height:60px;
+	margin-top:10px;
+}
+.contact .contact-fc .boxD
+{
+	background-color:lightpink;
+	width:60%;
+	height:164px;
+	margin-top:10px;
+}
+.contact .contact-fc .boxE
+{
+	background-color:lightpink;
+	width:60%;
+	height:68px;
+	margin-top:10px;
+}
+.contact .contact-fc .boxF
+{
+	background-color:lightpink;
+	width:20%;
+	height:66px;
+	margin-top:10px;
+}
+.copyright
+{
+	background-color:blue;
+	height:186px;
+}
